@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/numpad_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnNumpad1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="1"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad2"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="2"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad3"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="3"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnNumpad4"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="4"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad5"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="5"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad6"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="6"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btnNumpad7"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+
+            android:text="7"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad8"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="8"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad9"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="9"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/btnNumpadCustom"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNumpad0"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="0"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/btnNumpadBack"
+            android:layout_width="fill_parent"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_backspace_darkgrey_24dp"
+            android:scaleType="center"
+            android:scaleX=".3"
+            android:scaleY=".3"
+            android:textSize="20sp" />
+    </TableRow>
+
+</TableLayout>
