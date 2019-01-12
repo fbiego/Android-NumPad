@@ -5,9 +5,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/my_textview"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:layout_above="@id/my_numpad"
+        android:layout_marginBottom="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
 
     <com.example.numpad.NumPad
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
         android:id="@+id/my_numpad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

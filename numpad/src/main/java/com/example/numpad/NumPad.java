@@ -90,6 +90,7 @@ public class NumPad extends TableLayout {
 
     /**
      * Change color of button's text
+     *
      * @param context
      * @param colorId
      */
